@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="664.0" prefWidth="880.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.GameController">
+   <children>
+      <MenuBar>
+        <menus>
+          <Menu mnemonicParsing="false" text="File">
+            <items>
+              <MenuItem fx:id="cmiSave" mnemonicParsing="false" onAction="#saveGame" text="Save Game" />
+                  <MenuItem fx:id="cmiLoad" mnemonicParsing="false" onAction="#loadGame" text="Load Game" />
+                  <MenuItem fx:id="cmiLogout" mnemonicParsing="false" onAction="#handleLogout" text="Logout" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Edit">
+            <items>
+              <MenuItem fx:id="cmiStartNew" mnemonicParsing="false" onAction="#startNewGame" text="Start a New Game" />
+                  <MenuItem fx:id="cmiChangeDeck" mnemonicParsing="false" onAction="#changeDeck" text="Change Deck Image" />
+                  <MenuItem fx:id="cmiDelete" mnemonicParsing="false" onAction="#deleteAccount" text="Delete Account" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Help">
+            <items>
+              <MenuItem fx:id="cmiRules" mnemonicParsing="false" onAction="#showRules" text="Rules" />
+                  <MenuItem fx:id="cmiAbout" mnemonicParsing="false" onAction="#showAbout" text="About" />
+                  <MenuItem fx:id="cmiExit" mnemonicParsing="false" onAction="#onExit" text="Exit" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+      <TabPane prefHeight="644.0" prefWidth="880.0" tabClosingPolicy="UNAVAILABLE">
+        <tabs>
+          <Tab text="Card Table">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="524.0" prefWidth="880.0" styleClass="background-cards" stylesheets="@../myStyles.css">
+                     <children>
+                        <VBox fx:id="comCard1" layoutX="507.0" layoutY="47.0" prefHeight="156.0" prefWidth="108.0" rotate="-25.0" styleClass="background-comCards" stylesheets="@../myStyles.css" />
+                        <VBox fx:id="comCard2" layoutX="576.0" layoutY="31.0" prefHeight="156.0" prefWidth="108.0" styleClass="background-comCards" stylesheets="@../myStyles.css" />
+                        <VBox fx:id="comCard3" layoutX="648.0" layoutY="47.0" prefHeight="156.0" prefWidth="108.0" rotate="25.0" styleClass="background-comCards" stylesheets="@../myStyles.css" />
+                        <VBox fx:id="userCard1" layoutX="165.0" layoutY="437.0" prefHeight="214.0" prefWidth="145.0" rotate="-15.0" styleClass="background-userCards">
+                           <children>
+                              <Button fx:id="btnCard1" mnemonicParsing="false" onAction="#onCardClicked" prefHeight="214.0" prefWidth="145.0" styleClass="background-userCards" />
+                           </children></VBox>
+                        <VBox fx:id="userCard2" layoutX="256.0" layoutY="418.0" prefHeight="214.0" prefWidth="145.0" styleClass="background-userCards">
+                           <children>
+                              <Button fx:id="btnCard2" mnemonicParsing="false" onAction="#onCardClicked" prefHeight="214.0" prefWidth="145.0" styleClass="background-userCards" />
+                           </children></VBox>
+                        <VBox fx:id="userCard3" layoutX="346.0" layoutY="437.0" prefHeight="214.0" prefWidth="145.0" rotate="15.0" styleClass="background-userCards">
+                           <children>
+                              <Button fx:id="btnCard3" mnemonicParsing="false" onAction="#onCardClicked" prefHeight="214.0" prefWidth="145.0" styleClass="background-userCards" />
+                           </children></VBox>
+                        <Button fx:id="btnStartGame" defaultButton="true" layoutX="332.0" layoutY="277.0" mnemonicParsing="false" onAction="#startGame" styleClass="button-start" text="Start Game!" />
+                        <Button fx:id="btnExitGame" layoutX="794.0" layoutY="555.0" mnemonicParsing="false" onAction="#exitGame" styleClass="button-cardGame" text="Quit" />
+                        <Button fx:id="btnRestartGame" layoutX="767.0" layoutY="506.0" mnemonicParsing="false" onAction="#restartGame" styleClass="button-cardGame" text="Restart" />
+                        <Label fx:id="lblComCards" layoutX="597.0" layoutY="203.0" styleClass="normal-label" text="COM" />
+                        <Label fx:id="lblYourCards" layoutX="25.0" layoutY="558.0" styleClass="normal-label" text="Your Cards" />
+                        <VBox fx:id="cardDeck" layoutX="68.0" layoutY="119.0" prefHeight="200.0" prefWidth="144.0" styleClass="background-comCards" />
+                        <VBox fx:id="discardPile" layoutX="238.0" layoutY="119.0" prefHeight="200.0" prefWidth="144.0" styleClass="background-discardPile" />
+                        <Label fx:id="lblGoFirst" layoutX="185.0" layoutY="363.0" prefWidth="300.0" styleClass="normal-label" />
+                        <Label fx:id="lblScore" layoutX="25.0" layoutY="16.0" prefHeight="31.0" prefWidth="223.0" styleClass="normal-label" />
+                        <VBox fx:id="chip1" layoutX="542.0" layoutY="418.0" prefHeight="112.0" prefWidth="123.0" styleClass="background-chips" />
+                        <VBox fx:id="chip3" layoutX="603.0" layoutY="443.0" prefHeight="112.0" prefWidth="123.0" styleClass="background-chips" />
+                        <VBox fx:id="chip2" layoutX="581.0" layoutY="379.0" prefHeight="112.0" prefWidth="123.0" styleClass="background-chips" />
+                        <VBox fx:id="comChip2" layoutX="795.0" layoutY="164.0" prefHeight="46.0" prefWidth="48.0" styleClass="background-chips" />
+                        <VBox fx:id="comChip1" layoutX="770.0" layoutY="156.0" prefHeight="46.0" prefWidth="49.0" styleClass="background-chips" />
+                        <VBox fx:id="comChip3" layoutX="794.0" layoutY="134.0" prefHeight="45.0" prefWidth="46.0" styleClass="background-chips" />
+                     </children></AnchorPane>
+            </content>
+          </Tab>
+        </tabs>
+      </TabPane>
+   </children>
+</VBox>

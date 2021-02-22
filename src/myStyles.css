@@ -1,0 +1,90 @@
+.background {
+    -fx-background-color: darkgreen;
+}
+
+.background-cards {
+    -fx-background-color:darkgreen;
+    -fx-background-image:url("cardTable.jpg");
+}
+
+.background-comCards {
+    -fx-background-color:black;
+    -fx-background-size:stretch;
+}
+
+.background-discardPile {
+    -fx-border-style: solid;
+    -fx-border-color: white;
+    -fx-border-width: 5px;
+    -fx-background-size:stretch;
+}
+
+.background-userCards {
+    -fx-background-color:black;
+    -fx-background-size:stretch;
+}
+
+.background-chips {
+    -fx-background-image: url("pokerchip.png");
+    -fx-background-size: stretch;
+}
+
+.normal-label {
+    -fx-font-size:20pt;
+    -fx-font-family:"Calisto MT";
+    -fx-text-fill:white;
+}
+
+.table {
+    -fx-background-color:darkgray;
+    -fx-font-family: "Calisto MT";
+    -fx-text-fill:white;
+    -fx-font-size:20px;
+}
+
+/*
+The following three buttons' CSS was found at the following link: http://fxexperience.com/2011/12/styling-fx-buttons-with-css/
+*/
+.button-default {
+    -fx-background-color:
+        #3c7fb1,
+        linear-gradient(#fafdfe, #e8f5fc),
+        linear-gradient(#eaf6fd 0%, #d9f0fc 49%, #bee6fd 50%, #a7d9f5 100%);
+    -fx-background-insets: 0,1,2;
+    -fx-background-radius: 3,2,1;
+    -fx-padding: 3 30 3 30;
+    -fx-text-fill: black;
+    -fx-font-size: 14px;
+}
+
+.button-start {
+    -fx-background-color: linear-gradient(#ff5400, #be1d00);
+    -fx-font-family: "Rockwell";
+    -fx-font-size: 30px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 30;
+    -fx-background-insets: 0;
+    -fx-text-fill: white;
+}
+
+.button-cardGame {
+    -fx-background-color: linear-gradient(#ff5400, #be1d00);
+    -fx-font-family: "Rockwell";
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 30;
+    -fx-background-insets: 0;
+    -fx-text-fill: white;
+}
+
+.label-header {
+    -fx-font-size: 18pt;
+    -fx-font-family: "Tahoma";
+    -fx-text-fill:beige;
+}
+
+.label-title {
+    -fx-font-size: 30pt;
+    -fx-font-family: "Rockwell";
+    -fx-text-fill:tomato;
+}

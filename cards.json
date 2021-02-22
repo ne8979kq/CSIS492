@@ -1,0 +1,259 @@
+{"cards": [
+  {
+    "name": "Ace of Clubs",
+    "points": 1,
+    "url": "aceClubs.png"
+  },
+  {
+    "name": "Two of Clubs",
+    "points": 2,
+    "url": "twoClubs.png"
+  },
+  {
+    "name": "Three of Clubs",
+    "points": 99,
+    "url": "threeClubs.png"
+  },
+  {
+    "name": "Four of Clubs",
+    "points": 0,
+    "url": "fourClubs.png"
+  },
+  {
+    "name": "Five of Clubs",
+    "points": 5,
+    "url": "fiveClubs.png"
+  },
+  {
+    "name": "Six of Clubs",
+    "points": 6,
+    "url": "sixClubs.png"
+  },
+  {
+    "name": "Seven of Clubs",
+    "points": 7,
+    "url": "sevenClubs.png"
+  },
+  {
+    "name": "Eight of Clubs",
+    "points": 8,
+    "url": "eightClubs.png"
+  },
+  {
+    "name": "Nine of Clubs",
+    "points": 0,
+    "url": "nineClubs.png"
+  },
+  {
+    "name": "Ten of Clubs",
+    "points": -10,
+    "url": "tenClubs.png"
+  },
+  {
+    "name": "Jack of Clubs",
+    "points": 10,
+    "url": "jackClubs.png"
+  },
+  {
+    "name": "Queen of Clubs",
+    "points": 10,
+    "url": "queenClubs.png"
+  },
+  {
+    "name": "King of Clubs",
+    "points": 10,
+    "url": "kingClubs.png"
+  },
+  {
+    "name": "Ace of Diamonds",
+    "points": 1,
+    "url": "aceDiamonds.png"
+  },
+  {
+    "name": "Two of Diamonds",
+    "points": 2,
+    "url": "twoDiamonds.png"
+  },
+  {
+    "name": "Three of Diamonds",
+    "points": 99,
+    "url": "threeDiamonds.png"
+  },
+  {
+    "name": "Four of Diamonds",
+    "points": 0,
+    "url": "fourDiamonds.png"
+  },
+  {
+    "name": "Five of Diamonds",
+    "points": 5,
+    "url": "fiveDiamonds.png"
+  },{
+    "name": "Six of Diamonds",
+    "points": 6,
+    "url": "sixDiamonds.png"
+  },
+  {
+    "name": "Seven of Diamonds",
+    "points": 7,
+    "url": "sevenDiamonds.png"
+  },
+  {
+    "name": "Eight of Diamonds",
+    "points": 8,
+    "url": "eightDiamonds.png"
+  },
+  {
+    "name": "Nine of Diamonds",
+    "points": 0,
+    "url": "nineDiamonds.png"
+  },
+  {
+    "name": "Ten of Diamonds",
+    "points": -10,
+    "url": "tenDiamonds.png"
+  },
+  {
+    "name": "Jack of Diamonds",
+    "points": 10,
+    "url": "jackDiamonds.png"
+  },
+  {
+    "name": "Queen of Diamonds",
+    "points": 10,
+    "url": "queenDiamonds.png"
+  },
+  {
+    "name": "King of Diamonds",
+    "points": 10,
+    "url": "kingDiamonds.png"
+  },
+  {
+    "name": "Ace of Hearts",
+    "points": 1,
+    "url": "aceHearts.png"
+  },
+  {
+    "name": "Two of Hearts",
+    "points": 2,
+    "url": "twoHearts.png"
+  },
+  {
+    "name": "Three of Hearts",
+    "points": 99,
+    "url": "threeHearts.png"
+  },
+  {
+    "name": "Four of Hearts",
+    "points": 0,
+    "url": "fourHearts.png"
+  },
+  {
+    "name": "Five of Hearts",
+    "points": 5,
+    "url": "fiveHearts.png"
+  },{
+    "name": "Six of Hearts",
+    "points": 6,
+    "url": "sixHearts.png"
+  },
+  {
+    "name": "Seven of Hearts",
+    "points": 7,
+    "url": "sevenHearts.png"
+  },
+  {
+    "name": "Eight of Hearts",
+    "points": 8,
+    "url": "eightHearts.png"
+  },
+  {
+    "name": "Nine of Hearts",
+    "points": 0,
+    "url": "nineHearts.png"
+  },
+  {
+    "name": "Ten of Hearts",
+    "points": -10,
+    "url": "tenHearts.png"
+  },
+  {
+    "name": "Jack of Hearts",
+    "points": 10,
+    "url": "jackHearts.png"
+  },
+  {
+    "name": "Queen of Hearts",
+    "points": 10,
+    "url": "queenHearts.png"
+  },
+  {
+    "name": "King of Hearts",
+    "points": 10,
+    "url": "kingHearts.png"
+  },
+  {
+    "name": "Ace of Spades",
+    "points": 1,
+    "url": "aceSpades.png"
+  },
+  {
+    "name": "Two of Spades",
+    "points": 2,
+    "url": "twoSpades.png"
+  },
+  {
+    "name": "Three of Spades",
+    "points": 99,
+    "url": "threeSpades.png"
+  },
+  {
+    "name": "Four of Spades",
+    "points": 0,
+    "url": "fourSpades.png"
+  },
+  {
+    "name": "Five of Spades",
+    "points": 5,
+    "url": "fiveSpades.png"
+  },{
+    "name": "Six of Spades",
+    "points": 6,
+    "url": "sixSpades.png"
+  },
+  {
+    "name": "Seven of Spades",
+    "points": 7,
+    "url": "sevenSpades.png"
+  },
+  {
+    "name": "Eight of Spades",
+    "points": 8,
+    "url": "eightSpades.png"
+  },
+  {
+    "name": "Nine of Spades",
+    "points": 0,
+    "url": "nineSpades.png"
+  },
+  {
+    "name": "Ten of Spades",
+    "points": -10,
+    "url": "tenSpades.png"
+  },
+  {
+    "name": "Jack of Spades",
+    "points": 10,
+    "url": "jackSpades.png"
+  },
+  {
+    "name": "Queen of Spades",
+    "points": 10,
+    "url": "queenSpades.png"
+  },
+  {
+    "name": "King of Spades",
+    "points": 10,
+    "url": "kingSpades.png"
+  }
+]}
